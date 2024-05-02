@@ -25,7 +25,7 @@ def alternate_case_words(text):
     #join the words back into the string and return
     return' '.join(words)
         
-# asking the user to enter a sentence       
+# ask the user to enter a sentence       
 input_string = input("Enter a string: ")
 
 output_string = alternate_case_characters(input_string)
